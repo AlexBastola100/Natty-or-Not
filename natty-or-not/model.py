@@ -7,7 +7,7 @@ def train(): #Finding the appropriate weights and bias for the model
     training_y = sample_status #Natty or Not (0 or 1)
     W = np.random.randn(3) * 0.01 #sensible random weights 
     B = 0
-    loss_threshold = 0.39
+    loss_threshold = 0.39 #How confident it is 
     lr = 0.001 #learning rate 
 
     while True:
